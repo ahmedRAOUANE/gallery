@@ -2,3 +2,24 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.mediaHolder {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  /* // maxWidth: "800px",` */
+  height: 80vh;
+  gap: 3%;
+  }
+
+.mediaHolder > div {
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 1px #606060, 0 0 10px 5px #0000004d;
+}
+.mediaHolder > div:first-child {
+  flex: 3;
+}
+.mediaHolder > div:last-child {
+  flex: 2;
+}
